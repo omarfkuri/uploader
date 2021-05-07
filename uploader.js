@@ -1010,7 +1010,7 @@
 												var s;
 												t.success ? (n.value = n.value + "   \n" + t.fileUrl, (s = document.createElement("div"))
 													.className = "upload-success", s.innerHTML = '<div class="name" style="margin:10px 10px 10px 0;color: green;">' + e + " <span> - " + (t.size / 1e3)
-													.toFixed(2) + "KB</span></div>", _.appendChild(s)) : (m.innerHTML = t.msg, l.insertBefore(m, l.querySelector(".title")), Array.prototype.slice.call(l.querySelectorAll(".wrapper"))
+													.toFixed(2) + "KB of size bro</span></div>", _.appendChild(s)) : (m.innerHTML = t.msg, l.insertBefore(m, l.querySelector(".title")), Array.prototype.slice.call(l.querySelectorAll(".wrapper"))
 													.forEach(function(e) {
 														e.parentNode.removeChild(e)
 													}), console.warn("Upload failed. " + t.msg))
